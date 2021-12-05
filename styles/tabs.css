@@ -1,0 +1,82 @@
+.tabs-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.tabs-nav__item {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.tabs-nav__item:not(:last-child) {
+    margin-right: 85px;
+}
+
+.tabs-nav__btn {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: color .4s ease;
+    -o-transition: color .4s ease;
+    transition: color .4s ease;
+}
+
+.tabs-nav__btn--active {
+    color: var(--active-color);
+}
+
+.tabs-nav__item:hover .tabs-nav__btn {
+    color: var(--orange-color);
+}
+
+.tabs-nav__item:focus-within .tabs-nav__btn {
+    outline: 2px solid var(--orange-color);
+}
+
+.tabs-nab__btn--active {
+    color: var(--active-color);
+}
+
+.tabs-item {
+    display: none;
+}
+
+.tabs-item--active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.tabs-desc {
+    -ms-flex-preferred-size: 43.564%;
+    flex-basis: 43.564%;
+    margin-right: 142px;
+}
+
+.tabs-image {
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    margin-top: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tabs-one {
+    background-image: url('../img/how_tabs1.jpg');
+}
+
+.tabs-two {
+    background-image: url('../img/how_tabs2.jpg');
+}
+
+.tabs-three {
+    background-image: url('../img/how_tabs3.jpg');
+}
+
+.tabs-four {
+    background-image: url('../img/how_tabs4.jpg');
+}
